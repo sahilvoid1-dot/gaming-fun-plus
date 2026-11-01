@@ -1,0 +1,48 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #080808;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+header {
+  background: linear-gradient(135deg, #1b0000, #e50914);
+  padding: 65px 15px;
+}
+
+header h1 {
+  font-size: 35px;
+}
+
+main {
+  padding: 35px 15px;
+}
+
+.app-card {
+  background: #181818;
+  border: 1px solid #e50914;
+  border-radius: 15px;
+  padding: 25px;
+  max-width: 350px;
+  margin: 25px auto;
+}
+
+.btn {
+  display: inline-block;
+  background: #e50914;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+footer {
+  padding: 25px;
+  color: #aaa;
+}
